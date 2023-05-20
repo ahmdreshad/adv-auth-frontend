@@ -1,0 +1,26 @@
+.change-role{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+}
+.select{
+    width: 100%;
+    border: none;
+    padding: .3rem .5rem;
+    border: 1px solid #065a50;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+.check-btn{
+    background-color: #054947;
+    color: #fff;
+    border: none;
+    padding: .3rem;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all .2s linear;
+
+}
+.check-btn:hover{
+    background-color: #0d8e5f;
+}

@@ -1,0 +1,99 @@
+.code-container {
+  width: 40%;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.code-card {
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 2rem;
+}
+.code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.code .google-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #000;
+}
+.google-btn img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+.code-form{
+  width: 80%;
+}
+.code-form .submit-btn {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #0c6d72;
+  color: #fff;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.code-form .submit-btn:hover {
+  opacity: 0.8;
+}
+.login-info {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12rem;
+}
+
+.resend-link{
+    font-weight: bold;
+    cursor: pointer;
+    transition: color .2s linear;
+}
+.resend-link:hover{
+    color: #0f7075;
+}
+
+@media screen and (max-width: 950px) {
+  .code-container {
+    width: 50%;
+  }
+  .login-info {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .code-container {
+    width: 80%;
+  }
+  .login-info {
+    justify-content: space-around;
+  }
+}

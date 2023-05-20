@@ -1,0 +1,26 @@
+.user-summary {
+  width: 75%;
+  margin: 0 auto;
+}
+.user-stats {
+  display: flex;
+}
+
+.card1 {
+  background-color: #b624ff;
+}
+.card2 {
+  background-color: #32963d;
+}
+.card3 {
+  background-color: #03a5fc;
+}
+.card4 {
+  background-color: #c41849;
+}
+
+@media screen and (max-width: 1204px) {
+  .user-stats {
+    flex-direction: column;
+  }
+}

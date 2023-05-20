@@ -1,0 +1,22 @@
+.info-box {
+  width: 70%;
+  height: 5rem;
+  max-width: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+  gap: 1.5rem;
+  margin: 1rem auto;
+  border-radius: .3rem;
+
+}
+@media screen and (max-width:1204px){
+    .info-box{
+        max-width: 25rem;
+    }
+}
+
+
+

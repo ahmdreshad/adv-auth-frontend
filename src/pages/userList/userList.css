@@ -1,0 +1,117 @@
+.user-list {
+  width: 72%;
+  margin: 0 auto;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.search-bar h3 {
+  font-size: 1.8rem;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #494646;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+table thead tr {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+table th {
+  border: 1px solid #494646;
+  padding: 0.5rem;
+  background-color: #0c6d72;
+  color: #fff;
+}
+table td {
+  border: 1px solid #494646;
+  padding: 0.5rem;
+}
+table tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+.delete-user-btn {
+  cursor: pointer;
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+.react-confirm-alert-body {
+  width: 500px;
+  text-align: center;
+  color: #c61616;
+}
+.react-confirm-alert-body > h3 {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+.react-confirm-alert-button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.react-confirm-alert-button-group > button:nth-child(odd) {
+  outline: none;
+  background: #ec0b0b;
+  border: none;
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.react-confirm-alert-button-group > button:nth-child(even) {
+  outline: none;
+  background: #0a8076;
+  border: none;
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  color: #eee;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #33a39a81;
+  width: fit-content;
+  margin:2rem auto ;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+}
+.page-num{
+  background-color: #fff;
+  padding: .3rem .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+.btns{
+  background-color: #4c5556;
+  color: #fff;
+  transition: all .2s linear;
+}
+.btns:hover{
+  background-color: #0b595d;
+}
+.activePage{
+  background-color: #0b595d;
+  color: #fff;
+}
